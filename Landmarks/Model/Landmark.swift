@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import SwiftUI
+import CoreLocation
 
 struct Landmark: Hashable, Codable {
     var id: Int
