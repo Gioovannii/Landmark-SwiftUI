@@ -311,7 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 56PJN96NRT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_FILE = Landmarks/SupportedFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,7 +333,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
 				DEVELOPMENT_TEAM = 56PJN96NRT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_FILE = Landmarks/SupportedFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
