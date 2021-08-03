@@ -17,6 +17,14 @@ struct MapView: View {
     var body: some View {
         // $ => pass a binding like a reference to the underlying value
         Map(coordinateRegion: $region)
+            .onAppear() {
+                setRegion(coordinate)
+            }
+    }
+    
+    private func setRegion(_ coordinate: CLLocationCoordinate2D) {
+        region = MKCoordinateRegion(center: coordinate, span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
+        
     }
 }
 
